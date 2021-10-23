@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         supportActionBar?.hide()
 
-        binding.webView.settings.builtInZoomControls = true
+//        binding.webView.settings.builtInZoomControls = true
         binding.webView.settings.javaScriptEnabled = true
         binding.webView.settings.useWideViewPort = true
 
@@ -39,6 +39,6 @@ class MainActivity : AppCompatActivity() {
                 return true
             }
         }
-        binding.webView.loadUrl("https://mangasee123.com/")
+        binding.webView.loadUrl("https://verdismn.arw.my.id/")
     }
 }
